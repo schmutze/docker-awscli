@@ -9,4 +9,4 @@ RUN apt-get -q update && \
 
 RUN pip install awscli
 
-ENTRYPOINT ["aws"]
+#ENTRYPOINT ["aws"]
